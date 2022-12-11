@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    margin: 0;
+}
+.nav {
+    background-color:rgb(163, 155, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.nav ul {
+    padding: 0;
+    margin-left: 320px;
+    list-style: none;
+    display: flex;
+    gap: 10rem;
+}
+.nav :link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+input {
+    width: 80%;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 85px;
+    text-align: left;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid rgb(192, 104, 152);
+}
+
+.homeh2{
+    text-align: center;
+    color: rgb(105, 47, 105);
+}
+.homeLi {
+    font-size: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.weather {
+    height:0px;
+    font-size: 12px;
+    margin-left: 820px;
+    color: rgb(81, 34, 124);
+}
+
