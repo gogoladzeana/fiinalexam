@@ -21,12 +21,13 @@ const NavBar =()=>{
                     
                 </ul>
             </nav>
+            
             <Switch>
+            <Route exact path="/"><HomePage/></Route>
             <Route exact path="/Home" ><HomePage/></Route>
-            <Route exact path="/About" ><AboutPage/></Route>
-            
-            <Route  path="*" ><NotFound/></Route></Switch>
-            
+            <Route exact path="/About" ><AboutPage/></Route>  
+            <Route  path="*" ><NotFound/></Route>  
+      </Switch>
         </div>
     )
 } 

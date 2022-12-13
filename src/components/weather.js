@@ -1,5 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import './style.css';
+
 
 
 export default function Weather() {
@@ -13,7 +15,7 @@ export default function Weather() {
   }, []);
 
   return (
-    <div className="weather">
+    <div className="weather" >
       <p>{weather.name}</p>
       <p>{weather.main ? <h1>{weather.main.temp.toFixed()}°F</h1> : null} </p>
     </div>

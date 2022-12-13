@@ -3,7 +3,7 @@ const AboutPage =()=>{
 
     return(
         <div>
-            <img src={'http://futureplastindia.com/wp-content/uploads/2019/09/about.jpg'}
+            <img src={'https://st.depositphotos.com/1003593/3947/i/600/depositphotos_39479909-stock-photo-about-us-blue-marker.jpg'}
             width={'100%'}
             height={'300px'}  />
            <h1>Who we are</h1> 
