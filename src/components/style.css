@@ -27,9 +27,9 @@ body {
 
 .weather {
     height:0px;
-    font-size: 16px;
+    font-size: 16px ;
     margin-left: 820px;
-    color: rgb(80, 30, 70) !important;
+    color: rgb(84, 63, 220) !important;
 
 }
 .DropdownButton{
