@@ -13,13 +13,17 @@ const [weather,setWeather]=useState(12)
   return (
 
     <div>
+      
       <InfoContext.Provider value={{
         weather,
         setWeather
       }} >
-      <Weather/>
+        <Weather/>
+         <NavBar/>
+       
+      
       </InfoContext.Provider>
-      <NavBar/>
+     
           
     </div>
   );

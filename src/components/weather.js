@@ -23,8 +23,8 @@ useEffect(()=>{
 
   return (
     <div className="weather" >
-      <p>{weather.name}</p>
-      <p>{weather.main ? <h1>{weather.main.temp.toFixed()}°F</h1> : null} </p>
+      <p className="weather1">{weather.name}</p>
+      <p className="weather2">{weather.main ? <h1>{weather.main.temp.toFixed()}°F</h1> : null} </p>
     </div>
   );
 }

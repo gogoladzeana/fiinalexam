@@ -5,41 +5,121 @@ body {
     margin: 0;
 }
 .nav {
-    background-color:rgb(142, 208, 222);
+    background-color: rgb(189, 149, 212);
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+   
+    padding-right: 10px;
 }
 .nav ul {
     padding: 0;
-    margin-left: 280px;
+    margin-left: 320px;
     list-style: none;
     display: flex;
     gap: 10rem;
+   
 }
 .nav :link {
     text-decoration: none;
-    color: white;
-    font-size: 40px;
+    font-size: 50px;
     cursor: pointer;
+    margin-left:250px;
 }
-
-.weather {
-    height:0px;
-    font-size: 16px ;
-    margin-left: 820px;
-    color: rgb(84, 63, 220) !important;
-
-}
-.DropdownButton{
-    margin-top: 10px;
-    width: 2600px;
-    margin-left: 390px;
-}
-.list{
-    align-items: center;
-    margin-top: 10px;
+.H1{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(183, 111, 183);
+    margin-top: 20px; 
+    font-weight: 900;
+    font-size: 50px;
+}
+input {
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 220px;
+    text-align: left;
+    outline: none;
+    border-radius: 6px;
+    border: 2px solid rgb(192, 104, 152);
+}
+
+.homeh2{
+    text-align: center;
+    color: rgb(183, 111, 183);
+    margin-top: 25px;
+     font-weight: 700;
+     font-size: 20px;
+}
+.weather{
+   margin-left: 10px;
+   color: aliceblue;
+  position: fixed;
+}
+
+
+.homeLi {
+    font-size: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+.Homediv{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(189, 149, 212);
+    color: wheat;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 20px;
+    margin:10px;
+    align-items: center;
+    
+}
+.Link{
+    color: aliceblue;
+    color: white;
+    font-weight: bolder;
+   
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+   
+}
+.Link:hover{
+
+      transform: scale(1.1);
+}
+.Homediv:hover{
+    
+        transform:scale(1.1);
+        border-radius: 20px;
+        color: white;
+        background-color:  hsl(279, 47%, 66%);
+        cursor: pointer;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.Abouttags{
+        font-weight: 700;
+        font-size: 18px;
+        color: rgb(105, 47, 105);
+        margin-top: 3px;
+
+}
+.AboutP{
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(105, 47, 105);
+
 }
